@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", "sans-serif";
+}
+
+.notification-container {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.top-right {
+  top: 12px;
+  right: 12px;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+
+.bottom-right {
+  bottom: 12px;
+  right: 12px;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+}
+
+.top-left {
+  top: 12px;
+  left: 12px;
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+
+.bottom-left {
+  bottom: 12px;
+  left: 12px;
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+}
+
+.toast {
+  box-shadow: -1px 4px 28px 0px rgb(0 0 0 / 75%);
+  display: flex;
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.toast-btn {
+  margin-left: 10px;
+}
+
+.notification-title {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.notification-message {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px;
+}
