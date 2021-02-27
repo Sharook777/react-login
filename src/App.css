@@ -1,0 +1,118 @@
+.app {
+  height: 100%;
+}
+
+.is-danger {
+  border-color: red;
+}
+
+.login-wrapper,
+.signup-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.login-container,
+.signup-container {
+  /* width: 960px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 177px 130px 33px 95px; */
+
+  width: 310px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 177px 130px 33px 95px;
+  padding: 3em 2em;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-box-shadow: -1px 4px 28px 0px rgb(0 0 0 / 75%);
+  -moz-box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 28px 0px rgb(0 0 0 / 75%);
+}
+
+.login-head,
+.signup-head {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  /* padding: 1em 0 0.4em 0; */
+  /* margin: 0; */
+}
+
+.btn-primary {
+  background: #007cc0;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0.8em 2em;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.input-wrapper {
+  margin: 0 0 1em;
+  padding: 0.8em 1em;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.text-input {
+  outline: none;
+  font-size: 15px;
+  color: #222;
+  border: none;
+  width: 90%;
+  display: inline-block;
+  background: transparent;
+  letter-spacing: 1px;
+}
+
+.danger-text {
+  color: #ff7878;
+  margin: 6px 0 20px;
+  text-align: center;
+}
+
+.links {
+  margin: 16px 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: right;
+}
+
+.link-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 11px;
+  color: #e2e2e2;
+  text-transform: uppercase;
+}
