@@ -62,7 +62,7 @@ export default function Home({ token }) {
         )}
       </div>
       <div className="content-box">
-        {!loading && user ? "Under Construction" : "Loading"}
+        {!loading && user ? "Welcome" : "Loading"}
       </div>
     </div>
   );
